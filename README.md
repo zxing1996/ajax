@@ -15,14 +15,14 @@
 ### get
 
 ```js
-	$.get("http://localhost:3000/user", {id: 1}).then((result) => {
-		console.log(result)
-	})
+$.get("http://localhost:3000/user", {id: 1}).then((result) => {
+	console.log(result)
+})
 ```
 ### post
 
 ```js
-	$.post("http://localhost:3000/user", {id: 2, name: "闪烁"}).then((result)={
-		console.log(result)
-	})
+$.post("http://localhost:3000/user", {id: 2, name: "闪烁"}).then((result)={
+	console.log(result)
+})
 ```
