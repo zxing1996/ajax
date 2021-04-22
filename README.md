@@ -30,5 +30,4 @@ $.post("http://localhost:3000/user", {id: 2, name: "闪烁"}).then((result)={
 # 我做了什么
 
 - 拼接get参数
-- 设置post的json格式响应头
-- 转换结果为json格式
+- 设置post的json头
